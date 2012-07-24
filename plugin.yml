@@ -1,0 +1,14 @@
+name: KillStreak
+description: KillStreak
+main:  me.jdon.kill.streak.killstreak
+author: Jonneystechcheck
+version: 1.6
+commands:
+  kd:
+    description: Finds your kill death ratio.
+    usage: type /kd to find your kill death ratio.
+    permission: killstreak.kd
+permissions:
+  killstreak.kd:
+    description: Kill death ratio
+    default: true

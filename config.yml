@@ -1,0 +1,25 @@
+PVE: true
+PVP: true
+Stop player from killing same player twice in a row: true
+KillStreak-Message: Your on a %killstreaknumber% kill streak
+'1':
+  NumberOfCommands: 4
+  '1': say %name% is on a 1 kill streak
+  '2': give %name% 5 1
+  '3': give %name% 1 1
+  '4': give %name% 344 1
+'2':
+  NumberOfCommands: 1
+  '1': say %name% is on a 2 kill streak
+'3':
+  NumberOfCommands: 1
+  '1': say %name% is on a 3 kill streak
+'4':
+  NumberOfCommands: 1
+  '1': say %name% is on a 4 kill streak
+'5':
+  NumberOfCommands: 1
+  '1': say %name% is on a 5 kill streak
+'6':
+  NumberOfCommands: 1
+  '1': say %name% is on a 6 kill streak
